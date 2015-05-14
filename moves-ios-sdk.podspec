@@ -10,8 +10,7 @@ Pod::Spec.new do |s|
   }
   s.requires_arc = true
   s.source   = { 
-    :git => 'https://github.com/vitoziv/moves-ios-sdk.git',
-    :tag => '0.2.3'
+    :git => 'git@github.com:darrarski/moves-ios-sdk.git'
   }
   s.source_files = 'moves-ios-sdk/*.{h,m}',
     'moves-ios-sdk/models/**/*.{h,m}',
